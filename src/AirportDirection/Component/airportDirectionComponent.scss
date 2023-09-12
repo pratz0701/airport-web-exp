@@ -1,0 +1,25 @@
+.direction-card{
+    margin: 20px 15px;
+    .title-header{
+        font-size: 21px;
+        color: gray;
+        display: flex;
+        line-height: 28px;
+        text-align: left;
+
+        .count{
+            width: 5%;
+        }
+        .title{
+            width: 95%;
+            padding-left: 10px;
+        }
+    }
+    .image-header{
+        margin: 15px 0;
+        img{
+            height: 100%;
+            width: 100%;
+        }
+    }
+}

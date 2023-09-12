@@ -1,0 +1,35 @@
+.headline-header{
+    display: flex;
+    margin: 20px 15px;
+    justify-content: center;
+    align-items: center;
+    .direction-img{
+        font-size: 22px;
+        font-weight: bold;
+        line-height: 30px;
+    }
+    .title{
+       width: 75%;
+    }
+    .img-title{
+        width: 25%;
+        display: flex;
+        justify-content: right;
+        align-items: right;
+        padding: 10px 0;
+        img{
+            margin: 5px 5px;
+            height: 40px;
+            width: 70px;
+        }
+    }
+}
+.airport-direction{
+    display: flex;
+    flex-wrap: wrap;
+    .airport-direction-card{
+        flex: 1;
+        min-width: 70%;
+        text-align: center;
+    }
+}
